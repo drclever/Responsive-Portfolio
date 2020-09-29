@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
 }
 
+/* Navigation Bar */
 .navbar-light .navbar-brand {
     background-color: var(--teal);
     color: white;
@@ -29,6 +30,7 @@ body {
     font-family: Arial;
 }
 
+/*CSS for the container in which the code will reside */
 .container {
     width:100%;
     max-width: 60rem;
@@ -36,14 +38,9 @@ body {
     clear: both;
 }
 
+/* Header color */
 h1{
     color: var(--teal);
-}
-
-.card {
-    align-content: center;
-    margin: 11rem;
-    max-width: 75rem;
 }
 
 /* Margins for Images */
@@ -51,10 +48,13 @@ h1{
     margin: 10%;
 }
 
+/* CSS for images */
 img {
     max-height: 12.5rem; 
     max-width: 12.5rem;
 }
+
+/* CSS for image caption in portfolio */
 .image-caption {
     font-size: 18px;
     color: white;
@@ -62,6 +62,7 @@ img {
     padding-bottom: 15px;
 }
 
+/* CSS for figures in portfolio */
 .figure {
     overflow: hidden;
     position: relative;
@@ -76,6 +77,12 @@ img {
     bottom: 5%;
 }
 
+/* CSS for button in contact */
+.btn-primary{
+    background-color: var(--teal);
+}
+
+/* CSS for footer in index, portfolio, contact */
 .footer {
     background-color: var(--grey);
     position: sticky;
