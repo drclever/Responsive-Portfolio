@@ -55,6 +55,26 @@ img {
     max-height: 12.5rem; 
     max-width: 12.5rem;
 }
+.image-caption {
+    font-size: 18px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.figure {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.figure-caption {
+    background-color: var(--teal);
+    position: relative;
+    width: 75%;
+    bottom: 5%;
+}
 
 .footer {
     background-color: var(--grey);
