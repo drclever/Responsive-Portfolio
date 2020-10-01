@@ -54,23 +54,6 @@ img {
     max-width: 12.5rem;
 }
 
-/* CSS for Video in index.html */
-.video-container { 
-    position: relative; 
-    padding-bottom: 56.25%; 
-    padding-top: 1.875rem; 
-    height: 0; 
-    overflow: hidden; 
-}
-
-.video-container iframe, .video-container object, .video-container embed { 
-    position: absolute; 
-    top: 0; 
-    left: 20%; 
-    width: 100%; 
-    height: 100%; 
-}
-
 iframe {
     border: none;
 }
