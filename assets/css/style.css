@@ -38,6 +38,7 @@ body {
     clear: both;
 }
 
+/*CSS for card logic */
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
